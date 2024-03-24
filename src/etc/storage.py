@@ -2,8 +2,8 @@
 import sqlite3
 
 class Storage:
-    def __init__(self):
-        ...
+    def __init__(self, dbpath):
+        self.dbpath = dbpath
 
 class Connection:
     def __init__(self, path) -> None:
